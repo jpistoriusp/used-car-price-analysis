@@ -17,18 +17,17 @@ The client—a used car dealership—wants to understand the key features that d
 
 ### 2. **Data Understanding**
 - **Dataset**: A subset of the original Kaggle dataset, containing ~426,000 used car listings.  
-- **Features include**: `price`, `make`, `model`, `year`, `mileage`, `fuel type`, `transmission`, `location`, etc.  
+- **Features include**: `price`, `make`, `model`, `year`, `mileage`, `fuel type`, `transmission`, `location`
 - **Initial exploration involves**:  
   - Checking for missing values  
   - Identifying data types and distributions  
   - Looking for outliers and inconsistencies  
 
 ### 3. **Data Preparation**
-- Cleaned null and inconsistent values  
+- Cleaned null and inconsistent values
+- Filtered out extreme outliers that could skew the model  
 - Converted categorical variables using encoding techniques  
 - Normalized and scaled numerical features  
-- Created new features such as car age (current year - manufacturing year)  
-- Filtered out extreme outliers that could skew the model  
 
 ### 4. **Modeling**
 - Tested multiple regression models including:
@@ -40,16 +39,13 @@ The client—a used car dealership—wants to understand the key features that d
 
 ### 5. **Evaluation**
 - **Key findings**:
-  - Car **age** and **mileage** are strong negative predictors of price  
+  - Car **year** and **mileage** are strong negative predictors of price  
   - Certain **brands** (e.g., BMW, Mercedes) maintain higher resale values  
-  - **Fuel type** and **transmission** also influence price but vary by market  
 - **Limitations**:
-  - Some data may be outdated or inconsistent  
   - External market conditions not reflected in the dataset  
 
 ### 6. **Deployment**
-- While this is a student project, the insights are presented as if they were going into production.  
-- Recommendations were prepared for dealership stakeholders.  
+- Recommendations were prepared for dealership owners.  
 - Potential for integration into a pricing tool or dashboard in future iterations.  
 
 ---
