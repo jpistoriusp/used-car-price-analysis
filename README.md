@@ -63,7 +63,15 @@ The client—a used car dealership—wants to understand the key features that d
 - Focus inventory on newer cars (<5 years old) with lower mileage  
 - Prioritize brands with strong resale value  
 - Offer flexible financing for high-value vehicles with premium features  
-- Reassess pricing strategies for older, high-mileage vehicles  
+- Reassess pricing strategies for older, high-mileage vehicles
+
+## Next Steps
+
+- Incorporate external economic data (e.g., inflation, gas prices, interest rates) to improve pricing model accuracy  
+- Explore deep learning techniques or ensemble models for better predictions  
+- Develop an interactive dashboard to visualize car value trends over time  
+- Expand analysis to include regional price variations and consumer demand  
+- Collaborate with dealership teams to test and refine pricing recommendations in real-world settings  
 
 ## Resources
 
