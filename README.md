@@ -1,5 +1,7 @@
 # Used Car Price Analysis
 
+[View the Notebook](./used_cars_capstone.ipynb)
+
 ## Overview
 This project explores a dataset of 426,000 used cars, sourced from Kaggle. The goal is to analyze what factors contribute most to the price of a used car and provide actionable insights for a used car dealership looking to fine-tune their inventory strategy.
 
